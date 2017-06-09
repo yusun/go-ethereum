@@ -37,10 +37,6 @@ var (
 		MetropolisBlock: SunnyNetMetropolisBlock,
 
 		Ethash: new(EthashConfig),
-		Clique: &CliqueConfig{
-			Period: 15,
-			Epoch:  3000,
-		},
 	}
 
 	/*MainnetChainConfig = &ChainConfig{
