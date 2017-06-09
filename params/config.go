@@ -32,7 +32,6 @@ var (
 		DAOForkBlock:    nil,
 		DAOForkSupport:  true,
 		EIP150Block:     big.NewInt(0),
-		EIP150Hash:      SunnyNetHomesteadGasRepriceHash,
 		EIP155Block:     SunnyNetSpuriousDragon,
 		EIP158Block:     SunnyNetSpuriousDragon,
 		MetropolisBlock: SunnyNetMetropolisBlock,
