@@ -25,7 +25,26 @@ import (
 
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
+
 	MainnetChainConfig = &ChainConfig{
+		ChainId:         SunnyNetChainID,
+		HomesteadBlock:  SunnyNetHomesteadBlock,
+		DAOForkBlock:    nil,
+		DAOForkSupport:  true,
+		EIP150Block:     big.NewInt(0),
+		EIP150Hash:      SunnyNetHomesteadGasRepriceHash,
+		EIP155Block:     SunnyNetSpuriousDragon,
+		EIP158Block:     SunnyNetSpuriousDragon,
+		MetropolisBlock: SunnyNetMetropolisBlock,
+
+		Ethash: new(EthashConfig),
+		Clique: &CliqueConfig{
+			Period: 15,
+			Epoch:  3000,
+		},
+	}
+
+	/*MainnetChainConfig = &ChainConfig{
 		ChainId:         MainNetChainID,
 		HomesteadBlock:  MainNetHomesteadBlock,
 		DAOForkBlock:    MainNetDAOForkBlock,
@@ -37,7 +56,7 @@ var (
 		MetropolisBlock: MainNetMetropolisBlock,
 
 		Ethash: new(EthashConfig),
-	}
+	}*/
 
 	// TestnetChainConfig contains the chain parameters to run a node on the Ropsten test network.
 	TestnetChainConfig = &ChainConfig{
