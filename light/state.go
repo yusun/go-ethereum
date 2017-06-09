@@ -20,8 +20,8 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/crypto"
 )
 
 // LightState is a memory representation of a state.

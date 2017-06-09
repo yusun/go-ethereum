@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yusun/go-ethereum/consensus/ethash"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/core/vm"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/ethdb"
+	"github.com/yusun/go-ethereum/event"
+	"github.com/yusun/go-ethereum/params"
 )
 
 func ExampleGenerateChain() {

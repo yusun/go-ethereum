@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/common/math"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/params"
 )
 
 // Config are the configuration options for the Interpreter

@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/crypto/sha3"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all

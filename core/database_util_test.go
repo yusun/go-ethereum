@@ -23,13 +23,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/crypto/sha3"
+	"github.com/yusun/go-ethereum/ethdb"
+	"github.com/yusun/go-ethereum/params"
+	"github.com/yusun/go-ethereum/rlp"
 )
 
 // Tests block header storage and retrieval operations.

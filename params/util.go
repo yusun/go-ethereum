@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/yusun/go-ethereum/common"
 )
 
 var (

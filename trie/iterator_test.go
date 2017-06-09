@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/ethdb"
 )
 
 func TestIterator(t *testing.T) {

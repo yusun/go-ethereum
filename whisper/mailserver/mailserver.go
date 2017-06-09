@@ -21,12 +21,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/yusun/go-ethereum/cmd/utils"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/rlp"
+	whisper "github.com/yusun/go-ethereum/whisper/whisperv5"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

@@ -25,14 +25,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/common/math"
+	"github.com/yusun/go-ethereum/core"
+	"github.com/yusun/go-ethereum/core/state"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/ethdb"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/params"
 )
 
 func RunStateTestWithReader(chainConfig *params.ChainConfig, r io.Reader, skipTests []string) error {

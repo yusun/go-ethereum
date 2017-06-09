@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/yusun/go-ethereum/core"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/internal/debug"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/node"
+	"github.com/yusun/go-ethereum/rlp"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/swarm/storage"
 )
 
 const (

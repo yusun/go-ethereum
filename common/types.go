@@ -23,7 +23,7 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/yusun/go-ethereum/common/hexutil"
 )
 
 const (

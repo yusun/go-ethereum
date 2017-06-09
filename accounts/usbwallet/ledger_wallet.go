@@ -31,13 +31,13 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	ethereum "github.com/yusun/go-ethereum"
+	"github.com/yusun/go-ethereum/accounts"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/common/hexutil"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/rlp"
 	"github.com/karalabe/hid"
 )
 

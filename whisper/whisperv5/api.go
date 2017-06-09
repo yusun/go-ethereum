@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/common/hexutil"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/p2p/discover"
 )
 
 var whisperOfflineErr = errors.New("whisper is offline")

@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/params"
 )
 
 type (

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/yusun/go-ethereum/log"
+	"github.com/yusun/go-ethereum/rpc"
 	"github.com/robertkrimen/otto"
 )
 

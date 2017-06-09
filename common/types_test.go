@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/yusun/go-ethereum/common/hexutil"
 )
 
 func TestBytesConversion(t *testing.T) {

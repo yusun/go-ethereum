@@ -20,9 +20,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/common"
+	"github.com/yusun/go-ethereum/core/types"
+	"github.com/yusun/go-ethereum/crypto"
 )
 
 // VMState is a wrapper for the light state that holds the actual context and

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/yusun/go-ethereum/crypto"
+	"github.com/yusun/go-ethereum/crypto/sha3"
+	"github.com/yusun/go-ethereum/p2p/discover"
 )
 
 func init() {
