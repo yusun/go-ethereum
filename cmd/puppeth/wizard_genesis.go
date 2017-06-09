@@ -62,7 +62,7 @@ func (w *wizard) makeGenesis() {
 		genesis.Difficulty = big.NewInt(1)
 		genesis.Config.Clique = &params.CliqueConfig{
 			Period: 15,
-			Epoch:  30000,
+			Epoch:  3000,
 		}
 		fmt.Println()
 		fmt.Println("How many seconds should blocks take? (default = 15)")
